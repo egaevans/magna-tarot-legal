@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hapus Akun & Data — Magna Tarot</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --navy:#101a3d; --gold:#b9872f; --gold-bg:#fbf3e3;
+  --ink:#1c2130; --sub:#5b6178; --line:#e7e1d2; --bg:#fffdf8;
+  --serif:'Cormorant Garamond',Georgia,serif; --sans:'Jost',system-ui,-apple-system,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){ --bg:#0c0e16; --ink:#eef0f6; --sub:#aab0c4; --line:#2a2f42; --gold-bg:#201a10; }
+}
+*,*::before,*::after{box-sizing:inherit}
+html,body{margin:0;background:var(--bg)}
+body{font-family:var(--sans);color:var(--ink);line-height:1.65;font-size:16px}
+.wrap{max-width:680px;margin:0 auto;padding:48px 24px 80px}
+.brand{font-family:var(--serif);font-weight:600;color:var(--navy);font-size:15px;letter-spacing:.14em;text-transform:uppercase}
+@media (prefers-color-scheme:dark){.brand{color:#d8ac5c}}
+h1{font-family:var(--serif);font-weight:600;font-size:32px;margin:8px 0 6px}
+h2{font-family:var(--serif);font-weight:600;font-size:20px;margin:30px 0 10px}
+p{margin:0 0 12px}
+ul,ol{margin:0 0 14px;padding-left:20px}
+li{margin:5px 0}
+.card{border:1px solid var(--line);border-radius:14px;padding:18px 20px;background:var(--gold-bg);margin:18px 0}
+a.btn{display:inline-block;margin-top:6px;background:var(--navy);color:#fff;text-decoration:none;padding:11px 18px;border-radius:10px;font-weight:500}
+a{color:var(--navy)}
+@media (prefers-color-scheme:dark){a{color:#e8c784} a.btn{background:#d8ac5c;color:#15100a}}
+table{width:100%;border-collapse:collapse;margin:10px 0 18px;font-size:14.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--sub);font-weight:500;width:38%}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">Magna Tarot</div>
+  <h1>Hapus Akun & Data</h1>
+  <p>Halaman ini untuk pengguna aplikasi Magna Tarot yang ingin menghapus akun dan/atau data pribadinya.</p>
+
+  <div class="card">
+    <p><strong>Cara mengajukan permintaan:</strong> kirim pesan ke WhatsApp kami dengan mencantumkan email akun Magna Tarot-mu dan jenis permintaan (hapus akun sepenuhnya, atau hapus sebagian data saja).</p>
+    <a class="btn" href="https://wa.me/628977937571?text=Halo%20Magna%20Tarot%2C%20saya%20ingin%20mengajukan%20penghapusan%20akun%2Fdata.%20Email%20akun%20saya%3A%20">Ajukan lewat WhatsApp</a>
+  </div>
+
+  <h2>Data apa yang dihapus</h2>
+  <table>
+    <tr><th>Hapus akun sepenuhnya</th><td>Nama, email, password, nomor WhatsApp, tanggal/jam/kota lahir, riwayat status langganan — seluruh akunmu dihapus dari sistem kami dan tidak bisa dipulihkan.</td></tr>
+    <tr><th>Hapus sebagian data</th><td>Kamu bisa minta data tertentu saja dihapus atau dikoreksi (misalnya data lahir) tanpa menghapus akunmu secara keseluruhan.</td></tr>
+  </table>
+
+  <h2>Berapa lama diproses</h2>
+  <p>Permintaan diproses manual oleh tim kami, maksimal <strong>7 hari kerja</strong> sejak pesan diterima. Kami akan mengonfirmasi lewat WhatsApp begitu selesai.</p>
+
+  <h2>Catatan</h2>
+  <p>Untuk verifikasi, kami mungkin akan menanyakan detail akun tambahan guna memastikan permintaan benar berasal dari pemilik akun.</p>
+
+  <p style="margin-top:30px;color:var(--sub);font-size:13.5px">Lihat juga <a href="https://claude.ai/artifact/2BQS5d89TFbE3i94XpoLBS">Kebijakan Privasi</a> kami.</p>
+</div>
+</body>
+</html>
